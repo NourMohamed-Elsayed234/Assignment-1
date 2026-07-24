@@ -16,8 +16,8 @@ let  createCounter = function(init) {
 
     }
 };
-const counter = createCounter(6); 
-console.log(counter.increment()); 
-console.log(counter.reset());
-console.log(counter.decrement());
+const counter = createCounter(6) 
+console.log(counter.increment()) 
+console.log(counter.reset())
+console.log(counter.decrement())
 

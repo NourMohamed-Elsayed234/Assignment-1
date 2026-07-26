@@ -15,6 +15,15 @@ for(i=1;i<=10;i++){
     console.log(i)
 }
 //answer => 1,3,5,7,9 
+//another answer
+let x =[1,2,3,4,5,6,7,8,9,10]
+for(let i=0;i<x.length;i++){
+  if(x[i]%2==0){
+    continue
+  }
+  console.log(x[i])
+}
+// 1,3,5,7,9
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 // Question 4
 let arr = [1,2,3,4,5]
@@ -176,7 +185,7 @@ hoisting acts as if I declared the variable above the print statement,
 and assigned its value after printing.
 */
 //like 
-//let x
+//var x
 console.log(x)
 //x =5
 /*Temporal Dead Zone (TDZ):
